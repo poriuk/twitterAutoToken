@@ -1,4 +1,3 @@
-
 # This is a basic workflow to help you get started with Actions
 
 name: guest_token
@@ -42,8 +41,8 @@ jobs:
             python auto_token.py
       - name: commit
         run: |
-            git config --global user.email 342153316@qq.com
-            git config --global user.name poriuk
+            git config --global user.email 9173011623@njau.edu.cn
+            git config --global user.name kanomahoro
             git add .
             git commit -m "update" -a
             
