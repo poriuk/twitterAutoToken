@@ -41,8 +41,8 @@ jobs:
             python auto_token.py
       - name: commit
         run: |
-            git config --global user.email 9173011623@njau.edu.cn
-            git config --global user.name kanomahoro
+            git config --global user.email 342153316@qq.com
+            git config --global user.name poriuk
             git add .
             git commit -m "update" -a
             
